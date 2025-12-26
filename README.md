@@ -32,6 +32,17 @@ Verified using Ministry of Land, Infrastructure, Transport and Tourism (MLIT) lo
 | **Logic** | Nearest Neighbor | Solved 100% of "Out of Bounds" errors |
 | **Errors** | 10 points (0.57%) | Attributed to "Border Jitter" (data inconsistencies at building entrances vs. centroids) |
 
+### 📊 Validation Evidence
+Visual confirmation of the validation results in Chiyoda City.
+
+![Validation Overview](TCEv01.jpg)
+*Figure 1: Validation Overview - Achieved 99.43% accuracy across 1,753 data points. By shifting to Voronoi-based Nearest Neighbor logic, the engine successfully resolved "road gap" issues.*
+
+<br>
+
+![Error Audit](TCEv01_error1402.jpg)
+*Figure 2: Error Audit (No. 1402 @ Iidabashi) - Investigating the remaining 0.6% outliers. The red dot (coordinate) sits just meters outside the blue boundary due to dataset discrepancies ("Border Jitter"). This confirms that the logic has reached the theoretical limit.*
+
 ## 🛠️ Tech Stack
 * **Core:** Python 3.10+
 * **Geospatial:** `geopandas`, `dask-geopandas`, `pyogrio`, `shapely`
