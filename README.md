@@ -2,6 +2,7 @@
 
 **A high-precision Japanese address verification engine using Nearest Neighbor (Voronoi) logic.**
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/beachcities/TCE/blob/main/TCE_v0.1_Core_Prototype.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/Status-Prototype-green.svg)]()
