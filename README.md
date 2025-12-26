@@ -37,6 +37,24 @@ Verified using Ministry of Land, Infrastructure, Transport and Tourism (MLIT) lo
 * **Visualization:** `folium`
 * **Environment:** Designed for Google Colab (Cloud Runtime)
 
+## 📂 Data Preparation
+To run the prototype, you need to download the official Japanese administrative data.
+Please confirm the terms of use for each data source.
+
+### 1. Boundary Data (Shapefile)
+* **Source:** [e-Stat (Portal Site of Official Statistics of Japan)](https://www.e-stat.go.jp/)
+* **Dataset:** Map of Boundary Zones (Small Area) / 境界データ（小地域）
+* **Format:** World Geodetic System (JGD2011) / 世界測地系緯度経度・JGD2011
+
+### 2. Reference Data (CSV)
+* **Source:** [MLIT Location Reference Information Download Service](https://nlftp.mlit.go.jp/isj/)
+* **Dataset:** Gaiiku (Block) Level Position Reference Info / 街区レベル位置参照情報
+
+### 3. Setup
+1. Create a folder named `data` in your Google Drive (e.g., `/TCE_Project/data`).
+2. Upload the downloaded `.zip` files directly into this folder.
+   * *Note: TCE is designed to automatically detect and load valid zips.*
+
 ## 📦 Usage
 This repository contains the Jupyter Notebook for the prototype.
 1. Open `TCE_v0.1_Core_Prototype.ipynb` in Google Colab.
